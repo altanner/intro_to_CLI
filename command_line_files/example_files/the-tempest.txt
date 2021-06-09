@@ -1,10 +1,5 @@
 The Tempest
 by William Shakespeare
-Edited by Barbara A. Mowat and Paul Werstine
-  with Michael Poston and Rebecca Niles
-Folger Shakespeare Library
-https://shakespeare.folger.edu/shakespeares-works/the-tempest/
-Created on Jul 31, 2015, from FDT version 0.9.2
 
 Characters in the Play
 ======================
@@ -25,8 +20,6 @@ STEPHANO, Alonso's butler
 SHIPMASTER
 BOATSWAIN
 MARINERS
-Players who, as spirits, take the roles of Iris, Ceres, Juno, Nymphs, and Reapers in Prospero's masque, and who, in other scenes, take the roles of "islanders" and of hunting dogs
-
 
 ACT 1
 =====
