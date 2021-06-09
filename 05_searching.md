@@ -42,14 +42,13 @@ grep sparrow the*
 grep dog *night*
 ```
 
-We won't go into it here, but `grep` can search in very sophisticated ways. To use wildcards in the search query itself, we have to use regular expressions ("regex"). For example searching for variations of spelling, or when a word is near another match, or not showing the match but the word after the match, or the line after the match. 
+We won't go into it here, but `grep` can search in very sophisticated ways. To use wildcards in the search query itself, we have to use regular expressions ("regex"). For example searching for variations of spelling, or when a word is near another match, or not showing the match but the word after the match, or the line after the match. **One more note on `grep`: when counting, it only counts the number of __lines__ that the match appears on. If the same match occurs twice on the same line, it will only count as 1 match. `grep` can count all matches, rather than lines, but you can look that up for yourself**
 
-Have one more bit of practice with wildcards, by going back a folder (you should be in `command_line_files`), and try
+Have one more bit of practice with wildcards, by going back a folder (you should be in `command_line_files`) - what do you get if you run this command?
 
 ```
 ls *
 ```
-
 
 Next page: [Further skills]({{ site.baseurl }}{% link 06_further.md %})
 
