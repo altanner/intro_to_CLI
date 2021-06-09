@@ -31,7 +31,7 @@ Finally, we will look at how to make one command take the output from another co
 wc -l macbeth.txt
 ```
 
-`wc` is "word count", but here we are asking for the number of lines with the flag `l`. We can use a wildcard to see how many lines are in all of the plays, with
+`wc` is "word count", but here we are asking for the number of lines with the flag `-l`. We can use a wildcard to see how many lines are in all of the plays, with
 
 ```
 wc -l *
@@ -50,9 +50,22 @@ Combining redirects and pipes can make powerful scripts, here is a simple exampl
 wc -l * | sort -r > ordered_by_line
 ```
 
+Understanding this kind of flow is essentially the first step towards programming. While the command line is a whole scripting language in itself, as things get more sophisticated we start to use proper programming languages. This aids in compatibility, portability, allows you to use purpose-built tools. 
 
-pipes and redirects
+Further useful commands to explore for yourself (there are thousands, so here are just a handful!). Some of these will run by themselves, some of them will need files to work on. (Some of these might not be available on your particular system.)
+
+```
+history
+tree
+man
+cut
+sed
+tr
+du
+df
+exit
 ```
 
+If you have got this far, then you have covered the most useful commands for the command line interface! Although there are many commands, the ones mentioned in this workshop make up 90% of what most people need to do on the command line. Congratulations!
 
 All pages: [Navigation]({{ site.baseurl }}{% link 01_navigation.md %}) • [Copying, moving and deleting]({{ site.baseurl }}{% link 02_manipulation.md %}) • [Viewing file contents]({{ site.baseurl }}{% link 03_viewing_files.md %}) • [Editing files]({{ site.baseurl }}{% link 04_editing_files.md %}) • [Searching]({{ site.baseurl }}{% link 05_searching.md %}) • [Further skills]({{ site.baseurl }}{% link 06_further.md %})
