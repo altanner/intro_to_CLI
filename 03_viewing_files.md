@@ -13,7 +13,7 @@ cat meaning_of_life.txt
 cat the-tempest.txt
 ```
 
-We might want to see just part of a file, so experiment with these commands:
+The entire contents of the file have filled the terminal, which might be what you want, but it isn't. Instead, we can just see a part of a file, so experiment with these commands:
 
 ```
 head -35 the-tempest.txt
