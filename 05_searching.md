@@ -22,7 +22,7 @@ grep -ci faith king-lear.txt
 grep faith king-lear.txt julius-caesar.txt
 ```
 
-Note that we can combine flags, as in that `-ci` command above. Note that if you want to search for something with a space in it, you will need quotes around your query, for example
+Note that we can combine flags, as in that `-ci` command above. Also, that final command doesn't have flags, but is asking to search two files for the same match. Note that if you want to search for something with a space in it, you will need quotes around your query, for example
 
 ```
 grep "this scattered kingdom" king-lear.txt
