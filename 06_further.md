@@ -56,13 +56,17 @@ Further useful commands to explore for yourself (there are thousands, so here ar
 
 ```
 history
-tree
 man
+file
 cut
 sed
 tr
 du
 df
+who
+w
+whoami
+tree
 exit
 ```
 
