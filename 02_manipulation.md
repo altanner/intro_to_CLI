@@ -43,10 +43,10 @@ Empty folders can be copied, moved and removed, but you will need to use `-r` if
 Try moving into the folder with files inside. Can you `cp` a file to the folder *above* the one you are in? Finally, let's look at moving files. 
 
 ```
-mv data1 data2
-"Move the file called to data1 to a file called data2"
+mv data1 data4
+"Move the file called to data1 to a file called data4"
 ```
 
-"Move" is essentially "rename" (although it is doing exactly the same as moving items in your graphical interface. As such: **I've said it before and will say it again: The command line will overwrite files with no warning! If `data2` already existed, it would be DELETED by moving `data1` onto it! Be very careful with `mv`!**
+"Move" is essentially "rename" (although it is doing exactly the same as moving items in your graphical interface). As such: **I've said it before and will say it again: The command line will overwrite files with no warning! If `data4` already existed, it would be DELETED by moving `data1` onto it! Be very careful with `mv`!**
 
 Next page: [Navigation]({{ site.baseurl }}{% link 01_navigation.md %}) • [Copying, moving and deleting]({{ site.baseurl }}{% link 02_manipulation.md %}) • [Viewing file contents]({{ site.baseurl }}{% link 03_viewing_files.md %}) • [Editing files]({{ site.baseurl }}{% link 04_editing_files.md %}) • [Searching]({{ site.baseurl }}{% link 05_searching.md %}) • [Further skills]({{ site.baseurl }}{% link 06_further.md %})
