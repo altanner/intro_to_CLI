@@ -35,6 +35,6 @@ Your prompt will look different, but here is what it means
 Here, the computer name (also known as the "hostname") is `dc2-d0`, but yours might be more friendly, like `Megans_iMac` or `ubuntu`, for example. 
 The `$` sign means the terminal is waiting for a command. **Sometimes you will see commands on the internet which include the `$` symbol at the start of the command! You don't need to include this as part of the command, say if you cut and paste!** The name of the folder you are working in is after the `:` symbol. Here it says `~` - find out what that means in the next section. 
 
-Next page: [Navigation]({{ site.baseurl }}{% link 01_navigation.md %})
+## Next page: [Navigation]({{ site.baseurl }}{% link 01_navigation.md %})
 
 All pages: [Introduction](https://altanner.github.io/intro_to_CLI) • [Navigation]({{ site.baseurl }}{% link 01_navigation.md %}) • [Copying, moving and deleting]({{ site.baseurl }}{% link 02_manipulation.md %}) • [Viewing file contents]({{ site.baseurl }}{% link 03_viewing_files.md %}) • [Editing files]({{ site.baseurl }}{% link 04_editing_files.md %}) • [Searching]({{ site.baseurl }}{% link 05_searching.md %}) • [Further skills]({{ site.baseurl }}{% link 06_further.md %})
