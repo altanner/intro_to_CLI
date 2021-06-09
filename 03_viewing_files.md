@@ -32,13 +32,13 @@ shuf
 
 These might seem trivial (maybe even useless!) but these are powerful building blocks for arranging data. You will also see these terms using in programming languages, in particular `head` and `tail` are common especially in Python.
 
-Finally let's look at using a pager. A pager does not put the file contents to the terminal output, but instead shows it to you in a piece of dedicated software. It might not look like it, since it is still just plain text in your terminal window! But when using a pager, you are no longer on the command line. Try the following command:
+Finally let's look at using a pager. A pager does not put the file contents to the terminal output, but instead shows it to you in a piece of dedicated software. It might not look like it, since it is still just plain text in your terminal window! But when using a pager, you are no longer on the command line. We will use the command `less`, which will open a pager to view a file.
 
 ```
 less the-temptest.txt
 ```
 
-The file will be shown, and you can scroll down and up with `space` and `b`. This is useful for large files, since it does not need to load the whole file into memory to show it to you, only the part it is showing you. To leave the pager, press `q`. There are many things that `less` can do, but for now I will mention that you can search by pressing `/` and typing what you are looking for, and you can start `less` at the bottom of the file with `less +G filename`.
+The file will be shown, and you can scroll down and up with `space` and `b`. `Page up` and `page down` keys will also work. This is useful for large files, since it does not need to load the whole file into memory to show it to you. To leave the pager, press `q`. There are many things that `less` can do, but for now I will mention that you can search by pressing `/` and typing what you are looking for, and you can start `less` at the bottom of the file with `less +G filename`.
 
 Next page: [Editing files]({{ site.baseurl }}{% link 04_editing_files.md %})
 
