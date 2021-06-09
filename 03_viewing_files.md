@@ -40,4 +40,6 @@ less the-temptest.txt
 
 The file will be shown, and you can scroll down and up with `space` and `b`. This is useful for large files, since it does not need to load the whole file into memory to show it to you, only the part it is showing you. To leave the pager, press `q`. There are many things that `less` can do, but for now I will mention that you can search by pressing `/` and typing what you are looking for, and you can start `less` at the bottom of the file with `less +G filename`.
 
-Next page: [Navigation]({{ site.baseurl }}{% link 01_navigation.md %}) • [Copying, moving and deleting]({{ site.baseurl }}{% link 02_manipulation.md %}) • [Viewing file contents]({{ site.baseurl }}{% link 03_viewing_files.md %}) • [Editing files]({{ site.baseurl }}{% link 04_editing_files.md %}) • [Searching]({{ site.baseurl }}{% link 05_searching.md %}) • [Further skills]({{ site.baseurl }}{% link 06_further.md %})
+Next page: [Editing files]({{ site.baseurl }}{% link 04_editing_files.md %})
+
+All pages: [Navigation]({{ site.baseurl }}{% link 01_navigation.md %}) • [Copying, moving and deleting]({{ site.baseurl }}{% link 02_manipulation.md %}) • [Viewing file contents]({{ site.baseurl }}{% link 03_viewing_files.md %}) • [Editing files]({{ site.baseurl }}{% link 04_editing_files.md %}) • [Searching]({{ site.baseurl }}{% link 05_searching.md %}) • [Further skills]({{ site.baseurl }}{% link 06_further.md %})
