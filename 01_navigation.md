@@ -61,6 +61,6 @@ cd ..
 
 **There are actually three ways we could move back to our home folder from here. `cd ..` as above, `cd -`, and just `cd`. `cd` alone will always take you back to your home folder, `~`** Try repeating `cd ..`, and do `ls` each time. Where do you end up if you do this several times? What is here? Can you return to the folder you named `intro_to_cli`, in your home folder *using its absolute path*?
 
-Next page: [Copying, moving and deleting]({{ site.baseurl }}{% link 02_manipulation.md %})
+## Next page: [Copying, moving and deleting]({{ site.baseurl }}{% link 02_manipulation.md %})
 
 All pages: [Introduction](https://altanner.github.io/intro_to_CLI) • [Navigation]({{ site.baseurl }}{% link 01_navigation.md %}) • [Copying, moving and deleting]({{ site.baseurl }}{% link 02_manipulation.md %}) • [Viewing file contents]({{ site.baseurl }}{% link 03_viewing_files.md %}) • [Editing files]({{ site.baseurl }}{% link 04_editing_files.md %}) • [Searching]({{ site.baseurl }}{% link 05_searching.md %}) • [Further skills]({{ site.baseurl }}{% link 06_further.md %})
