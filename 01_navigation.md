@@ -4,7 +4,7 @@ Let's run our first command:
 
 ```
 pwd
-"print my current working directory"
+"print my current working directory / where am I?"
 ```
 
 You will then get some **output** to the terminal window, something like
