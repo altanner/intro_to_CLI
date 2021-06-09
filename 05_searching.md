@@ -63,6 +63,6 @@ head -10 some_plays/king*
 
 With those `tail` and `head` examples, note that we are using the **relative path** to the folder `some_plays`. Remember that anything ending with a `/` character is a folder, not a file. We could also use the **absolute path**, ie the path that will work from any location in the filesystem. For me, that would be `/Users/at9362/Code/intro_to_CLI/command_line_files`, but for you it will be something different.
 
-Next page: [Further skills]({{ site.baseurl }}{% link 06_further.md %})
+## Next page: [Further skills]({{ site.baseurl }}{% link 06_further.md %})
 
 All pages: [Introduction](https://altanner.github.io/intro_to_CLI) • [Navigation]({{ site.baseurl }}{% link 01_navigation.md %}) • [Copying, moving and deleting]({{ site.baseurl }}{% link 02_manipulation.md %}) • [Viewing file contents]({{ site.baseurl }}{% link 03_viewing_files.md %}) • [Editing files]({{ site.baseurl }}{% link 04_editing_files.md %}) • [Searching]({{ site.baseurl }}{% link 05_searching.md %}) • [Further skills]({{ site.baseurl }}{% link 06_further.md %})
