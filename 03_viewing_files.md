@@ -10,7 +10,7 @@ cat meaning_of_life.txt
 `cat` is short for "conCATenate", which means "join files end to end", but it can also output a single file too, so is useful for seeing what is in short files. Long files, it is less useful. Try this and see for yourself:
 
 ```
-cat the_tempest.txt
+cat the-tempest.txt
 ```
 
 We might want to see just part of a file, so experiment with these commands:
