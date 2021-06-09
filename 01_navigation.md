@@ -13,13 +13,14 @@ You will then get some **output** to the terminal window, something like
 /home/at9362
 ```
 
-This is your current location, here shown as an **absolute path** - the full description for what folder you are in. The sign `~` is an abbreviation for "you are in your home folder". There are four abbreviations you might come across
+This is your current location, here shown as an **absolute path** - the full description for what folder you are in. The sign `~` is an abbreviation for "your home folder". There are five abbreviations for locations that you might come across
 
 ```markdown
 ~    "Tilde"    Your home folder
-.    "Dot"      Your current working folder
+.    "Dot"      Your current working folder.
 ..   "Dot dot"  One folder "up" or "back" from here; the folder which holds the current working folder.
--    "Dash"     The folder you were *most* *recently* in
+-    "Dash"     The folder you were *most* *recently* in.
+/    "Root"     The root folder, containing the whole folder system.    
 ```
 
 `.`, `..`, and `-` are **relative paths** - they only relate to where your working folder is. Now let's see what is here
