@@ -13,6 +13,13 @@ There are six main sections here
 #### 5 [Searching]({{ site.baseurl }}{% link 05_searching.md %})
 #### 6 [Further skills]({{ site.baseurl }}{% link 06_further.md %})
 
+### Important things to remember, plus some tips
+
+- The command line is case-sensitive. The letter `H` is entirely different from `h`, for example! So if you are having issues, always check your capitalisation is correct.
+- You *can* select, cut etc with the mouse cursor, **but you cannot move the position of your typing cursor with the mouse**! You can only do that with the arrow keys. A couple of useful shortcuts are `ctrl-a` is "move my cursor to the start of the line", `ctrl-e` is "move cursor to end of line", and `option-arrowkey` will move your typing cursor word by word, rather than character by character.
+- If it looks like the terminal is stuck, or you want to cancel a command, it is `ctrl-c`.
+- To exit a terminal session, type `exit`.
+
 ### Opening a command line session
 
 All operating systems offer a terminal: 
