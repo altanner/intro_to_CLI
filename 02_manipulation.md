@@ -1,13 +1,13 @@
 ### Copying, moving and deleting
 
-Now we are going to bring some files into our folder `intro_to_cli` to play around with. Let's download the course files, using the CLI. Firstly, make sure you are in the the folder you made, `intro_to_cli`, and enter this command
+Now we are going to bring some files into our folder `intro_to_cli` to play around with. Let's download the course files, using the CLI. Firstly, make sure you are in the the folder you made, `intro_to_cli`, and enter (copy and paste) this command
 
 ```
-wget https://github.com/altanner/intro_to_CLI/raw/main/command_line_files.zip
+curl -O https://github.com/altanner/intro_to_CLI/raw/main/command_line_files.zip
 "Download from the internet the file at this URL location"
 ```
 
-Don't worry to much about `wget` right now - it is a more advanced command and isn't used again in the course. But it is similar to, say, clicking a download link in a browser window. Now let's unzip the file do we can look at the folder and files inside:
+Don't worry about `curl` right now - it is a more advanced command and isn't used again in the course. But it is a command for getting information from the internet, just like in your browser. Now let's unzip the file do we can look at the folder and files inside:
 
 ```
 unzip command_line_files.zip
