@@ -12,12 +12,12 @@ With `pwd` we are asking "print my current working directory / where am I?" You 
 /home/at9362
 ```
 
-This is your current location, here shown as an **absolute path** - the full description for what folder you are in. The sign `~` is an abbreviation for "your home folder". There are five abbreviations for locations that you might come across
+This is your current location, here shown as an **absolute path** - the full description for what folder you are in. 💙 The sign `~` is an abbreviation for "your home folder". There are five abbreviations for locations that you might come across
 
 ```markdown
 ~    "Tilde"    Your home folder
 .    "Dot"      Your current working folder.
-..   "Dot dot"  One folder "up" or "back" from here; the folder which holds the current working folder.
+..   "Dot dot"  One folder "up" or "back" from here.
 -    "Dash"     The folder you were *most* *recently* in.
 /    "Root"     The root folder, containing the whole folder system.    
 ```
