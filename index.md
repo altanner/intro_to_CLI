@@ -2,7 +2,7 @@
 
 Welcome!
 
-Here you will find materials to accompany our course **Introduction to the Command Line Interface**, delivered by the University of Bristol Research Software Engineering team. This document provides a reference for commands used in the session, as well as some materials beyond the scope of the course for those wishing to go further. We also provide some text files for learning to view, search and edit on the command line. 
+Here you will find materials to accompany our training **Introduction to the Command Line Interface**, delivered by the University of Bristol Research Software Engineering team. This document provides a reference for commands used in the session, as well as some materials beyond the scope of the course for those wishing to go further. Important warning are noted by the ❗ symbol, while useful tips have a 💙 next to them. This course frequently refers to the course materials, which we will get in section two, but if you are jumping ahead they are [available here](https://github.com/altanner/intro_to_CLI/raw/main/command_line_files.zip).
 
 There are six main sections here
 
@@ -15,10 +15,10 @@ There are six main sections here
 
 ### Important things to remember, plus some tips
 
-⚠️ The command line is case-sensitive. The letter `H` is entirely different from `h`, for example! So if you are having issues, always check your capitalisation is correct.
-⚠️ You *can* select, cut etc with the mouse cursor, **but you cannot move the position of your typing cursor with the mouse**! You can only do that with the arrow keys. A couple of useful shortcuts are `ctrl-a` is "move my cursor to the start of the line", `ctrl-e` is "move cursor to end of line", and `option-arrowkey` will move your typing cursor word by word, rather than character by character.
-✨ If it looks like the terminal is stuck, or you want to cancel a command, it is `ctrl-c`.
-✨ To exit a terminal session, type `exit`.
+- ❗ The command line is case-sensitive. The letter `H` is entirely different from `h`, for example! So if you are having issues, always check your capitalisation is correct.
+- ❗ You *can* select, cut etc with the mouse cursor, **but you cannot move the position of your typing cursor with the mouse**! You can only do that with the arrow keys. A couple of useful shortcuts are `ctrl-a` is "move my cursor to the start of the line", `ctrl-e` is "move cursor to end of line", and `option-arrowkey` will move your typing cursor word by word, rather than character by character.
+- 💙 If it looks like the terminal is stuck, or you want to cancel a command, it is `ctrl-c`.
+- 💙 To exit a terminal session, type `exit`.
 
 ### Opening a command line session
 
@@ -40,7 +40,7 @@ Your prompt will look different, but here is what it means
 ```
 
 Here, the computer name (also known as the "hostname") is `dc2-d0`, but yours might be more friendly, like `Megans_iMac` or `ubuntu`, for example. 
-The `$` sign means the terminal is waiting for a command. **Sometimes you will see commands on the internet which include the `$` symbol at the start of the command! You don't need to include this as part of the command, say if you cut and paste!** The name of the folder you are working in is after the `:` symbol. Here it says `~` - find out what that means in the next section. 
+The `$` sign means the terminal is waiting for a command. ❗ **Sometimes you will see commands on the internet which include the `$` symbol at the start of the command! You don't need to include this as part of the command, say if you cut and paste!** The name of the folder you are working in is after the `:` symbol. Here it says `~` - find out what that means in the next section. 
 
 ## Next page: [Navigation]({{ site.baseurl }}{% link 01_navigation.md %})
 
