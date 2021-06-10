@@ -60,7 +60,7 @@ cd ..
 
 This means "change folder to the one above this one". Going `cd ..` will always move you "backwards" in your folders, unless you are in the root folder `/`
 
-**There are actually three ways we could move back to our home folder from here. `cd ..` as above, `cd -`, and just `cd`. `cd` alone will always take you back to your home folder.** Try repeating `cd ..`, and do `ls` each time. Where do you end up if you do this several times? What is here? Can you return to the folder you named `intro_to_cli`, in your home folder *using its absolute path*?
+💙 **There are actually three ways we could move back to our home folder from here. `cd ..` as above, `cd -`, and just `cd`. `cd` alone will always take you back to your home folder.** Try repeating `cd ..`, and do `ls` each time. Where do you end up if you do this several times? What is here? Can you return to the folder you named `intro_to_cli`, in your home folder *using its absolute path*?
 
 ## Next page: [Copying, moving and deleting]({{ site.baseurl }}{% link 02_manipulation.md %})
 
