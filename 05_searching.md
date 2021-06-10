@@ -2,14 +2,13 @@
 
 A strength of the command line is being able to search through files. Here we will use a command called `grep`. Strange name I agree, but apparenly back in the depths of time it stood for "global search using regular expressions and print". Don't worry about what that means! Although, in programming "global" means "everywhere" - nothing to do with the world!
 
-Think of `grep` as `ctrl-f` ("find"), that you might use in a document or a browser, to find particular words. Change folder into `some_plays` and try this command: 
+💙 Think of `grep` as `ctrl-f` ("find"), that you might use in a document or a browser, to find particular words. Change folder into `some_plays` and try this command: 
 
 ```
 grep fish king-lear.txt
-"Use grep to seach for the word fish in the file king-lear.txt"
 ```
 
-`grep` will show you the lines with exact matches. Be careful that it will do exactly what you asked - fish will also be in parts of words other than "fish" itself. `grep` can take many useful flags. Try each of these commands, and work out what they do:
+Here we are saying "Use grep to seach for the word fish in the file king-lear.txt". `grep` will show you the lines with exact matches. ❗ Be careful that grep is both case sensitive, and it will do exactly what you asked - fish will also be in parts of words other than "fish" itself. `grep` can take many useful flags. Try each of these commands, and work out what they do:
 
 ```
 grep faith king-lear.txt
@@ -22,7 +21,7 @@ grep -ci faith king-lear.txt
 grep faith king-lear.txt julius-caesar.txt
 ```
 
-Note that we can combine flags, as in that `-ci` command above. Also, that final command doesn't have flags, but is asking to search two files for the same match. Note that if you want to search for something with a space in it, you will need quotes around your query, for example
+Note that we can 💙 combine multiple flags, as in that `-ci` command above. Also, that final command doesn't have flags, but is asking to search two files for the same match. Note that if you want to search for something with a space in it, you will need quotes around your query, for example
 
 ```
 grep "this scattered kingdom" king-lear.txt
@@ -51,7 +50,9 @@ grep sparrow the*
 grep dog *night*
 ```
 
-We won't go into it here, but `grep` can search in very sophisticated ways. To use wildcards in the search query itself, we have to use regular expressions ("regex"). For example searching for variations of spelling, or when a word is near another match, or not showing the match but the word after the match, or the line after the match. **One more note on `grep`: when counting, it only counts the number of __lines__ that the match appears on. If the same match occurs twice on the same line, it will only count as 1 match. `grep` can count all matches, rather than lines, but you can look that up for yourself**
+We won't go into it here, but `grep` can search in very sophisticated ways not possible with `ctrl-f`, for example finding ambiguous spellings, returning matches a certain distance from the actual match, or being able to look ahead or behind to conditionally match the true match. Don't worry if that doesn't make sense! 
+
+To use wildcards in the search query itself, we have to use regular expressions ("regex"). For example searching for variations of spelling, or when a word is near another match, or not showing the match but the word after the match, or the line after the match. ❗ **One more note on `grep`: when counting, it only counts the number of __lines__ that the match appears on. If the same match occurs twice on the same line, it will only count as 1 match. `grep` can count all matches, rather than lines, but you can look that up for yourself**
 
 Have a more bit of practice with wildcards, by going back a folder (you should be in `command_line_files`) - what do you get if you run these commands?
 
@@ -61,7 +62,7 @@ tail -3 some_plays/*
 head -10 some_plays/king*
 ```
 
-With those `tail` and `head` examples, note that we are using the **relative path** to the folder `some_plays`. Remember that anything ending with a `/` character is a folder, not a file. We could also use the **absolute path**, ie the path that will work from any location in the filesystem. For me, that would be `/Users/at9362/Code/intro_to_CLI/command_line_files`, but for you it will be something different.
+With those `tail` and `head` examples, note that we are using the **relative path** to the folder `some_plays`. 💙 Remember that anything ending with a `/` character is a folder, not a file. We could also use the **absolute path**, ie the path that will work from any location in the filesystem. For me, that would be `/Users/at9362/Code/intro_to_CLI/command_line_files`, but for you it will be something different.
 
 ## Next page: [Further skills]({{ site.baseurl }}{% link 06_further.md %})
 
