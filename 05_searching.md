@@ -14,7 +14,7 @@ find . -iname "doggy"
 
 Here we are using `.` (the current location) as the starting point, and `find` will look in all the containing folders below that location. To search a whole file system, we could go `find / -iname "my_file"`, but just like doing this in a GUI, it is very slow. `find` will also, unhelpfully, tell you all the folders you do not have access to.
 
-The flag `-iname` is saying "the file or folder is has this name, case insensitive" (you can do `-name` too, if you are sure of the case). In the name, we can have wildcards to say "anything", and it is useful to put `*` at both ends of your query, just in case you are forgetting part of the name. (More on wildcards later!) Notice the last query, for `"doggy"`, does not find anything, but the command line doesn't tell you that. It just finishes and gives you your prompt back. This is standard for the command line - unless you get an error, your command did run correctly - sometime with no output at all!
+The flag `-iname` is saying "the file or folder is has this name, case insensitive" (you can do `-name` too, if you are sure of the case). In the name, we can have wildcards to say "anything", and 💙 it is common to put `*` at both ends of your query, just in case you are forgetting part of the name. (More on wildcards later.) Notice the last query, for `"doggy"`, does not find anything, but the command line doesn't tell you that. It just finishes and gives you your prompt back. ❗ This is standard for the command line - unless you get an error, your command did run correctly - sometime with no output at all!
 
 💙 If you are on MacOS or Linux, you may have a command installed called `fzf` - "fuzzy find". This is a much more modern search command than `find`, which will find matches and similiar matches (without having to use wildcards), and give you a list of the closest matches. Give it a try with just `fzf` (and `enter` without a search query), then start typing your query and it will search as you type, a little like a browser can. You can scroll the results with your arrow keys, and press `enter` to print results to the terminal.
 
@@ -56,7 +56,7 @@ grep -r sparrow some_plays
 grep -rc sparrow some_plays
 ```
 
-Often, when referring to the file we want to search (or apply any command to), we can use **wildcards** to specify files with similarities in name. Move back into the folder called `some_plays`, and use this command
+Often, when referring to the file we want to search (or apply any command to), we can use 💙 **wildcards** to specify files with similarities in name. Move back into the folder called `some_plays`, and use this command
 
 ```
 grep sparrow *
@@ -70,7 +70,7 @@ grep sparrow the*
 grep dog *night*
 ```
 
-We won't go into it here, but `grep` can search in very sophisticated ways not possible with `ctrl-f`, for example finding ambiguous spellings, returning matches a certain distance from the actual match, or being able to look ahead or behind to conditionally match the true match. Don't worry if that doesn't make sense! 
+We won't go into it here, but `grep` can search in very sophisticated ways not possible with `ctrl-f`, for example finding ambiguous spellings, returning matches a certain distance from the actual match, or being able to look ahead or behind to conditionally match the true match. Don't worry if that doesn't make sense! 💙 If you are wondering what the command line version of "find and replace" is, look up a command called `sed` ("string editor") - this command is beyond the scope of this course, but is a commonly-used command for automating modification to files.
 
 To use wildcards in the search query itself, we have to use regular expressions ("regex"). For example searching for variations of spelling, or when a word is near another match, or not showing the match but the word after the match, or the line after the match. ❗ **One more note on `grep`: when counting, it only counts the number of __lines__ that the match appears on. If the same match occurs twice on the same line, it will only count as 1 match. `grep` can count all matches, rather than lines, but you can look that up for yourself**
 
