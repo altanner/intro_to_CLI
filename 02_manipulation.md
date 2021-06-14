@@ -6,7 +6,7 @@ Now we are going to bring some files into our folder `intro_to_cli` to play arou
 curl -O https://github.com/altanner/intro_to_CLI/raw/main/command_line_files.zip
 ```
 
-This means "go to this internet address and download the file there into a file here. Don't worry about `curl` right now - it is a more advanced command and isn't used again in the course. But it is a command for getting information from the internet, just like in your browser. Now let's unzip the file do we can look at the folder and files inside:
+This means "go to this internet address and download the file there into a file here". Don't worry about `curl` right now - it is a more advanced command and isn't used again in the course. But it is a command for getting information from the internet, just like in your browser. Now let's unzip the file do we can look at the folder and files inside:
 
 ```
 unzip command_line_files.zip
@@ -34,7 +34,7 @@ Now let's try copying, moving and removing folders. There are some folders in th
 cp -r folder_with_files_inside folder_copy
 ```
 
-"Copy, recursively, this folder to that folder". Empty folders can be copied, moved and removed, but you will need to use `-r` if there are items insides. `-r` is a common flag which we will use again later however 💙 not all flags mean the same, when applied to other commands! `-r` does the same thing for `cp` and `mv` and `rm`, but don't assume it does the same thing for all commands!
+"Copy, recursively, this folder to that folder". Empty folders can be copied, moved and removed, but you will need to use `-r` if there are items insides. `-r` is a common flag which we will use again later however 💙❗ not all flags mean the same, when applied to other commands! `-r` does the same thing for `cp` and `mv` and `rm`, but don't assume it does the same thing for all commands!
 
 Try moving into the folder with files inside. Can you `cp` a file to the folder *above* the one you are in? Finally, let's look at moving files. 
 
