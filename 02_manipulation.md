@@ -12,7 +12,7 @@ This means "go to this internet address and download the file there into a file 
 unzip command_line_files.zip
 ```
 
-Here we are expanding the zip file, like double-clicking an archive or compressed item in your GUI. The terminal will tell you what it has just done, and if you `ls` you will be able to see the new files. Move into the new folder with `cd`. Notice how these commands relate to your GUI - we can do all the same things (and more!) as you are used to in your graphical interface. 
+Here we are expanding the zip file, like double-clicking an archive or compressed item in your GUI. The terminal will tell you what it has just done, and if you `ls` you will be able to see a new folder. Move into the new folder with `cd`. Notice how these commands relate to your GUI - we can do all the same things (and more!) as you are used to in your graphical interface. 
 
 Let's move into the folder called `sandbox` and play with some files. Firstly, let's copy a file: 
 
