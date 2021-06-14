@@ -22,13 +22,9 @@ This is your current location, here shown as an **absolute path** - the full des
 /    "Root"     The root folder, containing the whole folder system.    
 ```
 
-`.`, `..`, and `-` are **relative paths** - they only relate to where your working folder is. Now let's see what is here
+`.`, `..`, and `-` are **relative paths** - they only relate to where your working folder is. 
 
-```
-ls
-```
-
-Now that we know where we are, let's see what is here. This is much like looking at the file manager window in a GUI, Finder in MacOS or Explorer on Windows: run a command called `ls`
+Now that we know where we are, let's see what is here by running a program called `ls` (spoken as "list" or "ell ess"). `ls` shows you the contents of your current folder, much like looking at the file manager window in a GUI, Finder in MacOS or Explorer on Windows:
 
 ```
 ls
@@ -40,7 +36,7 @@ For me, I get this output, a list of what is here.
 1jun_logfile  6jan  credentials.txt  creds  data_depot  git
 ```
 
-Yours will be different. Each of these things are the items (files and folders, usually) in your current working directory. For most terminals, items in white are files, and items in blue are folders. The first thing we are going to do is make a new folder, where we will be doing our work. We will use the command `mkdir`:
+Yours will be different. Each of these things are the items (files and folders, usually) in your current working directory. For most terminals, items in white are files, and items in blue are folders. The first thing we are going to do is make a new folder, where we will be doing our work. We will use the command `mkdir`, and this command needs an **argument**:
 
 ```
 mkdir intro_to_cli
@@ -58,7 +54,7 @@ Here we are asking to "change my working folder (directory) to intro_to_cli". Th
 cd ..
 ```
 
-This means "change folder to the one above this one". Going `cd ..` will always move you "backwards" in your folders, unless you are in the root folder `/`
+This means "change folder to the one above this one". Going `cd ..` will always move you "backwards" in your folders, unless you are in the root folder `/`, since `/` has no containing folder. If you are ever lost, remember you can just go `cd` to go back to your home folder.
 
 💙 **There are actually three ways we could move back to our home folder from here. `cd ..` as above, `cd -`, and just `cd`. `cd` alone will always take you back to your home folder.** Try repeating `cd ..`, and do `ls` each time. Where do you end up if you do this several times? What is here? Can you return to the folder you named `intro_to_cli`, in your home folder *using its absolute path*?
 
