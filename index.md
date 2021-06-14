@@ -2,7 +2,7 @@
 
 Welcome!
 
-Here you will find materials to accompany our training **Introduction to the Command Line Interface**, delivered by the University of Bristol Research Software Engineering team. This document provides a reference for commands used in the session, as well as some materials beyond the scope of the course for those wishing to go further. Important warning are noted by the ❗ symbol, while useful tips have a 💙 next to them. This course frequently refers to the course materials, which we will get in section two, but if you are jumping ahead they are [available here](https://github.com/altanner/intro_to_CLI/raw/main/command_line_files.zip).
+Here you will find materials to accompany our training **Introduction to the Command Line Interface**, delivered by the University of Bristol Research Software Engineering team. This document provides a reference for commands used in the session, as well as some materials beyond the scope of the course for those wishing to go further. Important warnings are noted by the ❗ symbol, while useful tips have a 💙 next to them. This course frequently refers to the course materials, which we will get in section two, but if you are jumping ahead they are [available here](https://github.com/altanner/intro_to_CLI/raw/main/command_line_files.zip).
 
 There are six main sections here
 
