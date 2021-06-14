@@ -1,4 +1,24 @@
-### Searching through files
+### Searching
+
+#### Searching _for_ files
+
+We usually use `find` as our search command, but it has some strange syntax, so if you are a little confused, you are not alone! The syntax is `find [where to start looking] [a flag for the type or naming of the file] ["the match you are looking for, in quotes"]`. Let's go back to your folder `command_line_files`, and run each of these commands.
+
+```
+find . -iname "data1"
+find . -iname "data*"
+find . -iname "*txt"
+find . -iname "*a*"
+find . -iname "doggy"
+```
+
+Here we are using `.` (the current location) as the starting point, and `find` will look in all the containing folders below that location. To search a whole file system, we could go `find / -iname "my_file"`, but just like doing this in a GUI, it is very slow. `find` will also, unhelpfully, tell you all the folders you do not have access to.
+
+The flag `-iname` is saying "the file or folder is has this name, case insensitive" (you can do `-name` too, if you are sure of the case). In the name, we can have wildcards to say "anything", and it is useful to put `*` at both ends of your query, just in case you are forgetting part of the name. (More on wildcards later!) Notice the last query, for `"doggy"`, does not find anything, but the command line doesn't tell you that. It just finishes and gives you your prompt back. This is standard for the command line - unless you get an error, your command did run correctly - sometime with no output at all!
+
+💙 If you are on MacOS or Linux, you may have a command installed called `fzf` - "fuzzy find". This is a much more modern search command than `find`, which will find matches and similiar matches (without having to use wildcards), and give you a list of the closest matches. Give it a try with just `fzf` (and `enter` without a search query), then start typing your query and it will search as you type, a little like a browser can. You can scroll the results with your arrow keys, and press `enter` to print results to the terminal.
+
+#### Searching _in_ files
 
 A strength of the command line is being able to search through files. Here we will use a command called `grep`. Strange name I agree, but apparenly back in the depths of time it stood for "global search using regular expressions and print". Don't worry about what that means! Although, in programming "global" means "everywhere" - nothing to do with the world!
 
