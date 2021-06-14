@@ -44,7 +44,15 @@ The `$` sign means the terminal is waiting for a command. ❗ **Sometimes you wi
 
 ### The anatomy of a command
 
-The syntax of most commands is `verb (adverb, if applicable) object`. The **verb** is the name of the command you are running, which is a program on your computer. **Flags** are your adverbs - how do you want the verb to be done? Then comes the **object** - what you want the action to be done to. This is usually a file. There may be other parts of your command, perhaps an input file and an output file, or multiple flags, but in general this structure is consistent. But everything on the command line is either a `command` (a program you are running) or a `file` (often a plain-text file), and we manipulate these to do the work we want to do. Even simple commands like `ls` or `cd` are just tiny programs that you run - let's introduce these in the next section.
+The syntax of most commands is 
+
+```
+verb       (adverbs)    object(s)
+or
+command    (flags)      argument(s)
+```
+
+The **command** is the name of the command you are running, which is a program on your computer. **Flags** are your adverbs - how do you want the verb to be done? Then comes the **object** (or **argument**) - what you want the action to be done to. (The term **argument** is more common in programming than on command line, but it is worth understanding this word now - it is admittedly confusing to use the word "argument" in such a strange way!) Your object is is usually a file. There may be other parts of your command, perhaps an input file and an output file, or multiple flags, but in general this structure is consistent. But every first part is a `command` (a program you are running), our tools, and we manipulate these to do the work we want to do. Even simple commands like `ls` or `cd` are just tiny programs that you run - let's introduce these in the next section.
 
 ## Next page: [Navigation]({{ site.baseurl }}{% link 01_navigation.md %})
 
