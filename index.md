@@ -40,7 +40,11 @@ Your prompt will look different, but here is what it means
 ```
 
 Here, the computer name (also known as the "hostname") is `dc2-d0`, but yours might be more friendly, like `Megans_iMac` or `ubuntu`, for example. 
-The `$` sign means the terminal is waiting for a command. ❗ **Sometimes you will see commands on the internet which include the `$` symbol at the start of the command! You don't need to include this as part of the command, say if you cut and paste!** The name of the folder you are working in is after the `:` symbol. Here it says `~` - find out what that means in the next section. 
+The `$` sign means the terminal is waiting for a command. ❗ **Sometimes you will see commands on the internet which include the `$` symbol at the start of the command! You don't need to include this as part of the command, say if you cut and paste!** The name of the folder you are working in is after the `:` symbol. Here it says `~` - find out what that means in the next section.
+
+### The anatomy of a command
+
+The syntax of most commands is `verb (adverb, if applicable) object`. The **verb** is the name of the command you are running, which is a program on your computer. **Flags** are your adverbs - how do you want the verb to be done? Then comes the **object** - what you want the action to be done to. This is usually a file. There may be other parts of your command, perhaps an input file and an output file, or multiple flags, but in general this structure is consistent. But everything on the command line is either a `command` (a program you are running) or a `file` (often a plain-text file), and we manipulate these to do the work we want to do. Even simple commands like `ls` or `cd` are just tiny programs that you run - let's introduce these in the next section.
 
 ## Next page: [Navigation]({{ site.baseurl }}{% link 01_navigation.md %})
 
