@@ -17,6 +17,8 @@ There are six main sections here
 
 - ❗ The command line is case-sensitive. The letter `H` is entirely different from `h`, for example! So if you are having issues, always check your capitalisation is correct.
 - ❗ You *can* select, cut etc with the mouse cursor, **but you cannot move the position of your typing cursor with the mouse**! You can only do that with the arrow keys. A couple of useful shortcuts are 💙 `ctrl-a` is "move my cursor to the start of the line", `ctrl-e` is "move cursor to end of line", and `option-arrowkey` will move your typing cursor word by word, rather than character by character.
+- 💙 You can use `tab` to auto-complete: try this wherever you can, it will save you lots of time and typos.
+- 💙 You can scroll back through your previous commands with the `up arrow` (and `down arrow`) - another big time-saver.
 - 💙 If it looks like the terminal is stuck, or you want to cancel a command, it is `ctrl-c`.
 - 💙 To exit a terminal session, type `exit`.
 
@@ -24,8 +26,8 @@ There are six main sections here
 
 All operating systems offer a terminal: 
 - on MacOS you can use *Terminal* or *iTerm* (find them in Launchpad or Spotlight)
-- on Windows *PowerShell*, *GitBash*, or a terminal under *Windows Subsystems for Linux* 
-- Linux provides *Konsole*, *Terminal* or *xterm* as default.
+- Linux provides *Konsole*, *Terminal* or *xterm* as defaults, although your distribution may be different.
+- on Windows you have *GitBash*, or a terminal under *Windows Subsystems for Linux*, or *PowerShell*. Note that *PowerShell* is significantly different from the Unix- and Linux-style command line, and we do not support it in this session.
 
 Terminal windows are often white or black by default, but don't worry if yours is a different colour. When you open a terminal, you will be provided with a **prompt**. This tells you where you are, and provides a line where you will type your commands. Here is what a typical prompt looks like:
 
