@@ -34,7 +34,7 @@ These might seem trivial (maybe even useless!) but these are powerful building b
 Finally let's look at using a pager. A pager does not put the file contents to the terminal output, but **instead shows it to you in a piece of dedicated software**. It might not look like it, since it is still just plain text in your terminal window! But when using a pager, you are no longer on the command line. We will use the command `less`, which will open a pager to view a file.
 
 ```
-less the-temptest.txt
+less the-tempest.txt
 ```
 
 The file will be shown, and you can scroll down and up with `space` and `b`. 💙 `Page up` and `page down` keys will also work. This is useful for large files, since it does not need to load the whole file into memory to show it to you. To leave the pager, press `q`. There are many things that `less` can do, but for now I will mention that you can search by pressing `/` and typing what you are looking for, and 💙 you can start `less` at the bottom of the file with `less +G filename`.
