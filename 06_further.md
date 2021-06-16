@@ -98,7 +98,7 @@ To move information between different machines, we use a program called `scp` - 
 scp my_file user003@isambard.bris.ac.uk:~/my_folder
 ```
 
-which, while it looks more complex, is the same syntax as with `cp`. You specify what to copy, then where to copy it, using the address of the remote machine *a colon* `:` then the folder of where it is to go. To send something to your home folder, you can just leave it blank (but include the colon):
+which, while it looks more complex, is the same syntax as with `cp`. You specify what to copy, then where to copy it, using the address of the remote machine **then a colon** `:` then the folder of where it is to go. To send something to your home folder, you can just leave it blank (but include the colon):
 
 ```
 scp file_i_am_sending user003@isambard.bris.ac.uk:
