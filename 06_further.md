@@ -92,7 +92,7 @@ Notice that the login is essentially the same as your local address, that we see
 
 ### Secure copy
 
-To move information between different machines, we use a program called `scp` - "secure copy". This is the same as `cp`, except that the contents of your files are encrypted (you `scp` locally, although there isn't a gerat deal of point - however, if you see a *local file* named a *remote machine*, and you are wondering why your `scp` didn't work, it may be because your syntax was not right, and the command line thought you wanted to copy a file locally - a common mistake!). Here is the syntax for copying locally to remotely:
+To move information between different machines, we use a program called `scp` - "secure copy". This is the same as `cp`, except that the contents of your files are encrypted (you can `scp` locally, although there isn't a gerat deal of point - however, if you see a *local file* unexpectedly named a *remote machine*, and you are wondering why your `scp` didn't work, it may be because your syntax was not right, and the command line thought you wanted to copy a file locally - a common mistake!). Here is the syntax for copying locally to remotely:
 
 ```
 scp my_file user003@isambard.bris.ac.uk:~/my_folder
