@@ -2,7 +2,9 @@
 
 If you have got this far, then you have covered the most useful commands for the command line interface! Although there are many commands, the ones mentioned in this workshop make up 90% of what most people need to do on the command line. Congratulations!
 
-This page will cover some more advanced ways of using the command line, in particular how to link different commands together. Firstly we will cover a concept called "redirecting". Move into the folder `example_files`. We can see, for example, the first three lines of `plants.txt` with the command
+This page will cover some more advanced ways of using the command line, particular **1** how to link different commands together, and **2** how to interact with remote computers. 
+
+Firstly we will cover a concept called "redirecting". Move into the folder `example_files`. We can see, for example, the first three lines of `plants.txt` with the command
 
 ```
 head -3 plants.txt
