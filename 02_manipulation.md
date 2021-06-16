@@ -6,7 +6,7 @@ Now we are going to bring some files into our folder `intro_to_cli` to play arou
 curl -LO https://github.com/altanner/intro_to_CLI/raw/main/command_line_files.zip
 ```
 
-This means "go to this internet address and download the file there into a file here". Don't worry about `wget` right now - it is a more advanced command and isn't used again in the course. But it is a command for getting information from the internet, just like in your browser. Now let's unzip the file do we can look at the folder and files inside:
+This means "go to this internet address and download the file there into a file here". Don't worry about `curl` right now - it is a more advanced command and isn't used again in the course. But it is a command for getting information from the internet, just like in your browser. Now let's unzip the file do we can look at the folder and files inside:
 
 ```
 unzip command_line_files.zip
